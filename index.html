@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content ="width=device-width, initial scale=1.0">
+        <meta charset="UTF-8">
+        <title>Personal Portfolio | Responsive Web design</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <section class="banner" id="home">
+
+            <div class="imgSidebar">
+                <img src="bG (2).jpg" >
+            </div>
+           <div class="contentBx"> 
+            <h5 class="logoText">My_Portfolio</h5>
+            <div>
+                <h4><span>Hello</span>, I am</h4>
+                <h2>Alisha Raj</h2>
+                <h4>I am a Full Stack Web Developer.</h4>
+                <p>Currently, persuing Bachelor of Engineering from University of Mumbai.
+                    
+                </p>
+                <a href="#about" class="btn">About Me</a>
+                
+            </div>
+            
+
+           </div>
+           
+        </section>
+
+
+        <section class="about" id="about">
+            <div class="title white">
+                <h2>About Me</h2>
+                <p>Allow me to introduce myself.</p>
+            </div> 
+            <div class="content">
+                <div class="textBx">
+                    <p>I am a student of final year Electronics Engineering, expecting to graduate in summer of 2021. I am currently 
+                        residing in Navi Mumbai but my origins lie in Patna, Bihar. I completed till my senior secondary there and
+                        moved here for higher education.<br></br>
+                        I am passionate about bringing a product or service on the table while continuosly learning and evolving 
+                        . Aspiring to establish myself as a professional  developer in an organization which provides ample opportunities for learning and
+                        growth.<br></br>
+                        Aiming to hone my skills and learn
+                        from my betters while being a
+                        responsible team member and
+                        leader as well.<br></br></p>
+                        <h4 style="background-color:#f5f5f5;">Technical skills:</h4>
+                       <p> I am versed with programming in C and Java and possess working knowledge of HTML, CSS and Javascript.<br></br>
+                        Other than this, reading and exploring various literatures is my solace.
+                    </p>
+                </div>
+            <div class="imgBx">
+                <img src="profile photo.jpg">
+            </div>
+            </div>   
+        </section>
+
+        <section class="education" id="education">
+            <div class="title">
+                <h2>Education</h2>
+                
+            </div> 
+            <div class="content">
+                <div class="educationBx">
+                    <img src="college.png">
+                    <h2>Bachelor's of Engineering</h2>
+                    <h2>Electronics</h2>
+                    <h4>2017-2021</h4>
+                    <h4>Datta Meghe College of Engineering</h4>
+                    
+                    <h4>University of Mumbai</h4>
+                </div>
+                <div class="educationBx">
+                    <img src="school.png">
+                    <h2>Higher Secondary School</h2>
+                    <h3>CBSE | 2017</h3>
+                    <h4> Adarsh Gyanodaya Vidyalaya</h4>
+                    <h4>Patna, Bihar</h4>
+                </div>
+                <div class="educationBx">
+                    <img src="school.png">
+                    <h2>Senior Secondary School</h2>
+                    <h3>CBSE | 2015</h3>
+                    <h4> Balika Vidyapith</h4>
+                    <h4>Lakhisarai, Bihar</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="project" id="project">
+            <div class="title">
+                <h2>Projects</h2>
+
+                
+            </div>
+            <div class="content" padding-top=5px>
+                <div class="projectBx">
+                    <a href= "https://github.com/Alisharaj1103/Simple-Text-Editor">
+                    <img src="icons8-github-24.png" />
+                    </a>
+                    <div class="textBx">
+                    <h3 >Text Editor in java</h3>
+                    <p>Developed a Text Editor in Java that comes with functionalities  for user registration in the program and secure login 
+                        • Hashing is used for password protection, thereby elimination any  possibility to decrypt stored information 
+                        • Worked intensively with AWT and Swing, leveraged Event Handling  methods to configure the user interface and associated actions 
+                        </p>
+                    </div>
+                </div>
+                <div class="projectBx">
+                    <h3>Billing System</h3>
+                    <p>Created a java application that enlisted some basic functionalities of a billing system to be used in a general supermarket.
+                         The interface comprised of a menu of items to be selected. Total bill amount along with other
+                         charges was displayed. A mini calculator was place general purpose use.
+                        • Employed Java’s GUI programming to simulate the interface using tools in  Swing framework 
+                        
+                        </p>
+                    <div class="textBx"></div>
+                        
+                </div>
+                <div class="projectBx">
+                    <a href="https://github.com/Alisharaj1103/Fpga-Digital-Clock">
+                    <img src="icons8-github-24.png" />
+                </a>
+                    <div class="textBx">
+                    <h3>Digital clock with FPGA</h3>
+                    <p>With Field Programmable Gate Array at core, a digital clock was designed • Simulated the clock in Vivado (Xilinx), programmed in Verilog 
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <div class="contact" id="contact">
+            <div class="title white">
+                <h2>Contact Me</h2>
+                <p>Glad to have you here. Feel free to reach out!</p>
+            </div>
+            <div class="contactBx">
+                <a href="mailto: alisharaj1103@gmail.com">
+                    <img src="https://img.icons8.com/ios/50/000000/send-mass-email.png"/>
+                </a>
+               
+                <a href="https://www.linkedin.com/in/alisha-raj-1103/">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/>
+                </a>
+                <a href="https://www.instagram.com/raj11033011/">
+                    <img src="https://img.icons8.com/fluent-systems-regular/48/000000/instagram-new--v2.png"/>
+                </a>
+            </div>
+        </div>
+        
+
+        
+        <div class="sidebar">
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="#education" onclick="toggleMenu();">Education</a></li>
+                <li><a href="#project" onclick="toggleMenu();">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        </div>
+        <script>
+            function toggleMenu(){
+                const menuToggle= document.querySelector('.toggle');
+                const sidebar= document.querySelector('.sidebar');
+                menuToggle.classList.toggle('active')
+                sidebar.classList.toggle('active')
+                
+               
+            }
+        </script>
+        
+    </body>
+</html>
